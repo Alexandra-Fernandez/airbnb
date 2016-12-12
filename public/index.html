@@ -1,107 +1,118 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="images/favicon.png"/>
-        <title>Te espera un mundo de viajes inolvidables</title>
-        <link rel="stylesheet" href="stylesheet/main.css">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
-    </head>
-    <body>
-        <footer id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2">
-                        <div class="clearfix">
-                            <div class="col-sm-6 col-md-12">
-                                <select class="form-control" id="sel1">
-                                    <option>Bahasa Indonesia</option>
-                                    <option>Bahasa Melayu</option>
-                                    <option>Catalá</option>
-                                    <option>Dansk</option>
-                                    <option>Deutsch</option>
-                                    <option>English</option>
-                                    <option>Español</option>
-                                    <option>Frances</option>
-                                    <option>Italiano</option>
-                                    <option>Magyar</option>
-                                    <option>Nederlands</option>
-                                    <option>Norsk</option>
-                                    <option>Polski</option>
-                                    <option>Portugues</option>
-                                    <option>Suomi</option>
-                                    <option>Syenska</option>
-                                </select>
-                            </div>
-                            <div class="col-sm-6 col-md-12">
-                                <select class="form-control" id="sel1">
-                                    <option>AED</option>
-                                    <option>ARS</option>
-                                    <option>AUD</option>
-                                    <option>BGN</option>
-                                    <option>BRL</option>
-                                    <option>CAD</option>
-                                    <option>CHF</option>
-                                    <option>CLP</option>
-                                    <option>CNY</option>
-                                    <option>COP</option>
-                                    <option>CRC</option>
-                                    <option>CZK</option>
-                                    <option>DKK</option>
-                                    <option>EUR</option>
-                                    <option>GBP</option>
-                                    <option>HKD</option>
-                                    <option>HRK</option>
-                                    <option>HUF</option>
-                                    <option>IDR</option>
-                                    <option>ILS</option>
-                                    <option>INR</option>
-                                    <option>JPY</option>
-                                    <option>KRW</option>
-                                    <option>MAD</option>
-                                    <option>MXN</option>
-                                    <option>MYR</option>
-                                    <option>NOK</option>
-                                    <option>NZD</option>
-                                    <option>PEN</option>
-                                    <option>PHP</option>
-                                    <option>PLN</option>
-                                    <option>RON</option>
-                                    <option>RUB</option>
-                                    <option>SAR</option>
-                                    <option>SEK</option>
-                                    <option>SGD</option>
-                                    <option>THB</option>
-                                    <option>TRY</option>
-                                    <option>PLN</option>
-                                    <option>RON</option>
-                                    <option>RUB</option>
-                                    <option>SAR</option>
-                                    <option>SEK</option>
-                                    <option>SGD</option>
-                                    <option>THB</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-md-offset-1">
-                        
-                    </div>
-                    <div class="col-md-2 col-md-offset-1">
-                        
-                    </div>
-                    <div class="col-md-2 col-md-offset-1">
-                        
-                    </div>
-                </div>
-            </div>
-        </footer>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <script src="javascripts/bundle.js"></script>
-    </body>
+<html>
+	<head>
+		<title>air</title>
+		<link rel="stylesheet" type="text/css" href="vendors/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="vendors/ui/jquery-ui.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+		<section class="container">
+			<div class="row">
+				<div class="col-lg-3 ui-widget input-1" id="input">
+					<h4>Dónde</h4>
+					<input type="text" id="tags" placeholder="Distrito">	
+				</div>
+				<div class="col-lg-6 input-2" id="input">
+					<h4>Cuándo</h4>
+					<input type="text" id="from" name="from" placeholder="Llegada">
+					-->
+					<input type="text" id="to" name="to" placeholder="Salida">	
+				</div>
+				<div class="col-lg-3 input-3" id="input">
+					<h4>Huésped</h4>
+					<label for="number">Huésped</label>
+					<select name="number" id="number">
+						<option>1</option>
+						<option selected="selected">2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+						<option>16</option>
+					</select>
+					<button>Buscar</button>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div>
+						<h4>Experiencias</h4>
+					</div>
+					<div class="col-xs-6 col-md-3">
+						<a href="#" class="thumbnail">
+							<img src="ima/06bf6fed_original.jpg" alt="...">
+							<p>s/.983 <span>Crafting & non-profit - 3 días</span></p>
+						</a>
+					</div>
+					<div class="col-xs-6 col-md-3">
+						<a href="#" class="thumbnail">
+							<img src="ima/06bf6fed_original.jpg" alt="...">
+							<p>s/.229 <span>Coffe & roasting experience</span></p>
+						</a>
+					</div>
+					<div class="col-xs-6 col-md-3">
+						<a href="#" class="thumbnail">
+							<img src="ima/06bf6fed_original.jpg" alt="...">
+							<p>s/.106 <span>Running & rice wine experience</span></p>
+						</a>
+					</div>
+					<div class="col-xs-6 col-md-3">
+						<a href="#" class="thumbnail">
+							<img src="ima/06bf6fed_original.jpg" alt="...">
+							<p>s/.878 <span>Magic & culture  - 3 días</span></p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div>
+						<h4>Alojamientos</h4>
+					</div>
+					<div class="col-xs-6 col-md-3">
+						<a href="#" class="thumbnail">
+							<img src="ima/06bf6fed_original.jpg" alt="...">
+							<p>s/.909 <span>Casa/apto. entero en Charleston</span></p>
+						</a>
+					</div>
+					<div class="col-xs-6 col-md-3">
+						<a href="#" class="thumbnail">
+							<img src="ima/06bf6fed_original.jpg" alt="...">
+							<p>s/.372 <span>Casa/apto. entero en Mayne Island</span></p>
+						</a>
+					</div>
+					<div class="col-xs-6 col-md-3">
+						<a href="#" class="thumbnail">
+							<img src="ima/06bf6fed_original.jpg" alt="...">
+							<p>s/.685 <span>Casa/apto. entero en Petaluma</span></p>
+						</a>
+					</div>
+					<div class="col-xs-6 col-md-3">
+						<a href="#" class="thumbnail">
+							<img src="ima/06bf6fed_original.jpg" alt="...">
+							<p>s/.900 <span>Trail running & fitness  - 4 días</span></p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script src="vendors/ui/external/jquery/jquery.js"></script>
+		<script type="text/javascript" src="vendors/ui/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
 </html>
